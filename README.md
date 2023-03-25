@@ -2,8 +2,9 @@
 # MYTACL: A TACL MODEL IMPLEMENTATION
 
 ## training commend:
-python train.py --dataroot ./datasets/pre_enhancement --name pretraned_enhancemant_model --model cycle_gan --crop_size 512 --n_epochs 400
-
+````
+python train.py --dataroot ./datasets/pre_enhancement--name pretraned_enhancemant_model --model cycle_gan --crop_size 256 --n_epochs 400
+````
 ------------------------------
 ## Original Content:
 **New**:  Please check out [contrastive-unpaired-translation](https://github.com/taesungp/contrastive-unpaired-translation) (CUT), our new unpaired image-to-image translation model that enables fast and memory-efficient training.
